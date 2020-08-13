@@ -18,3 +18,21 @@
         left: calc(50% - 250px);
     }
 }
+
+
+  ul {
+    list-style: none;
+    text-align: left;
+  }
+
+  li {    
+    display: inline;
+    text-align: left;
+    padding-bottom: 5px;
+    border-bottom: 2px solid green;
+    margin-right: 40px;
+  }
+
+  li:hover {
+    border-bottom: 2px solid blue;
+  }
